@@ -16,7 +16,7 @@ st.title('End-to-End AutoML Project: Insurance Cross-Sell')
 
 # Set FastAPI endpoint
 # endpoint = 'http://localhost:8000/predict'
-endpoint = 'http://host.docker.internal:8000/predict' # Specify this path for Dockerization to work
+endpoint = 'http://172.206.112.88:8000/predict' # Specify this path for Dockerization to work
 
 test_csv = st.file_uploader('', type=['csv'], accept_multiple_files=False)
 
